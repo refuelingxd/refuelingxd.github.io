@@ -1,0 +1,47 @@
+.button {
+	color: white;
+	background-color: #E54B4B;
+	border-color: #E54B4B;
+	border-style: solid;
+	padding: 10px;
+	font-size: 1.5em;
+	font-family: Roboto, Arial, sans-serif;
+	border-radius: 5px;
+	transition-duration: 0.1s;
+	outline:none;
+}
+
+.button:hover{
+	color: #E54B4B;
+	background-color: white;
+	transition-duration: 0.2s;
+}
+
+.button:active{
+	color: white;
+	background-color: #EA4B4B;
+}
+
+#output{
+	width:600px;
+	height:200px;
+	border:thin solid red;
+	color: white;
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 1em;
+	padding: 5px;
+}
+
+body{
+	background-color: #011C27;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1{
+	color: white;
+	margin: 20px;
+	font-family: Roboto, Arial, sans-serif;
+}
